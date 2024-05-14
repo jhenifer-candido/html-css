@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 3px;
+            margin: 0px ;
+        }
+        article{
+            background-color: lightblue;
+        }
+        article > aside {
+            background-color: lightcyan;
+        }
+        nav{
+            background-color: lightseagreen;
+            padding: 3px;    
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > hover:a {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link </a>
+            <a href="#"> Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <section id="noticias">
+                <article>
+                    <h2>News about Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi cumque iure earum reiciendis impedit ea porro at, est voluptate voluptates culpa quam quidem totam nulla beatae ad suscipit sunt.</p>
+                    <aside>
+                        <p>Artigo feito por Jhenifer</p>
+                    </aside>
+                </article>
+            </section>
+        </section>
+    </main>
+</body>
+<footer>
+    <p>Desenvolvido por mim. </p>
+</footer>
+</html>

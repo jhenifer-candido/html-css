@@ -1,0 +1,62 @@
+body {
+    background-color:#262626;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+header {
+    color: #262626;
+    background-color: #FFD500;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 20px;      
+}
+
+nav {
+    background-color:#FF4545;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav > a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+nav >a:hover{
+    color: white;
+}
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
+main picture img {
+    width: 200px; 
+    height: auto; /* Isso garante que a proporção da imagem seja mantida */
+    margin: 50px;
+    display: block; /* Define a imagem como bloco */
+    margin-left: auto; /* Margem automática à esquerda */
+    margin-right: auto; /* Margem automática à direita */
+}
+
+
+article > aside {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
