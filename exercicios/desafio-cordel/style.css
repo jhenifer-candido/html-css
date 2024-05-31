@@ -51,6 +51,7 @@ section{
     font-family: var(--fonte3);
     font-size: 1em;
     
+    
 }
 
 section.normal {
@@ -58,9 +59,13 @@ section.normal {
     color: black;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 section.imagem {
     background-color: #474545;
     color: white;
+    
 }
 
 section.imagem > p {
